@@ -15,9 +15,8 @@ Pod::Spec.new do |s|
                        DESC
   s.homepage         = "http://mave.io"
   s.license          = 'MIT'
-  s.author           = 'Mave'
-  s.source           = { :git => "https://github.com/mave/mave-ios-sdk.git", :tag => "v#{s.version.to_s}" }
-  # s.social_media_url = 'https://twitter.com/mavegrowth'
+  s.author           = 'dcosson'
+  s.source           = { :git => "https://github.com/dcosson/mave-merkle-tree.git", :tag => "v#{s.version.to_s}" }
 
   s.platform     = :ios, '7.0'
   s.requires_arc = true
